@@ -1,9 +1,9 @@
-window.addEventListener('DOMContentLoaded', () => {
-  const line = document.getElementById('line');
-  let angle = 0;
+let angle = 0;
+const line = document.getElementById('line');
 
-  setInterval(() => {
-    angle += 2;
-    line.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
-  }, 20);
-});
+setInterval(() => {
+  angle += 2;
+  line.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
+}, 20);
+
+
